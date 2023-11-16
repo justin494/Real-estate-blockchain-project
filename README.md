@@ -13,13 +13,13 @@ PropertyPass aims to transform the real estate industry by providing a secure, t
 
 # TOOLS USED
 
-*Remix.ide
-*Flask
-*VScode
+* Remix.ide
+* Flask
+* VScode
 
 # TECH STACK
 
-*Python(Flask)
-*Solidity
-*HTML
-*CSS
+* Python(Flask)
+* Solidity
+* HTML
+* CSS
