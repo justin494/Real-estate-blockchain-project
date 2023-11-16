@@ -10,3 +10,16 @@ For property purchases, the platform facilitates auctions or sales through decen
 Similarly, PropertyPass simplifies the rental process by enabling the creation of smart rental agreements. Landlords and tenants can establish transparent and self-executing rental contracts with predefined terms, rent payments, and conditions stored securely on the blockchain. This automation reduces disputes and ensures both parties adhere to the agreed-upon terms.
 
 PropertyPass aims to transform the real estate industry by providing a secure, transparent, and efficient platform for land registry, property sales, and rentals. By utilizing blockchain technology, it enhances trust, reduces fraud, and streamlines the processes associated with property ownership, buying, and renting.
+
+# TOOLS USED
+
+*Remix.ide
+*Flask
+*VScode
+
+# TECH STACK
+
+*Python(Flask)
+*Solidity
+*HTML
+*CSS
