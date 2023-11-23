@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 from datetime import datetime
 import random
+from hashlib import sha256
 
 app = Flask(__name__)
 
@@ -48,11 +49,11 @@ def add_record():
 
 # getting patient record from blockchain
 @app.route('/get_records', methods=['GET'])
-def get_record():
+def get_records():
     uid = request.args.get('uid')
     for block in blockchain:
         if block.uid == uid:
-            return render_template('record.html', record=block)
+            return render_template('blockchain.html', blockchain=blockchain)
     return 'Record not found.'
 
 # displaying whole blockchain
